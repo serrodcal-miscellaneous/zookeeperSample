@@ -48,7 +48,7 @@ public class Executor implements Watcher, Runnable, DataMonitor.DataMonitorListe
                     .println("USAGE: Executor hostPort znode filename program [args ...]");
             System.exit(2);
         }*/
-        String hostPort = "localhost:2181";
+        String hostPort = "localhost:2182";
         String znode = "/app";
         String filename = "test.txt";
         String exec[] = {"hello"};
